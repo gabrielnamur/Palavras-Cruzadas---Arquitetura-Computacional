@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Palavras Cruzadas</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #000;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td class="highlight" colspan="4">C</td>
+            <td></td>
+            <td class="highlight" colspan="2">R</td>
+            <td class="highlight">A</td>
+            <td class="highlight">M</td>
+        </tr>
+        <tr>
+            <td class="highlight">P</td>
+            <td class="highlight">U</td>
+            <td class="highlight">T</td>
+            <td class="highlight">U</td>
+            <td class="highlight">L</td>
+            <td class="highlight">A</td>
+            <td></td>
+            <td class="highlight">O</td>
+            <td class="highlight">M</td>
+        </tr>
+        <tr>
+            <td class="highlight" rowspan="2">Q</td>
+            <td class="highlight">U</td>
+            <td class="highlight">A</td>
+            <td class="highlight">D</td>
+            <td class="highlight"></td>
+            <td class="highlight">S</td>
+            <td class="highlight">S</td>
+            <td class="highlight">D</td>
+            <td class="highlight">U</td>
+        </tr>
+        <tr>
+            <td class="highlight"></td>
+            <td></td>
+            <td class="highlight"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="highlight">U</td>
+            <td class="highlight">L</td>
+            <td class="highlight">A</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="highlight"></td>
+        </tr>
+        <tr>
+            <td class="highlight"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="highlight">I</td>
+            <td class="highlight">5</td>
+            <td class="highlight"></td>
+        </tr>
+        <tr>
+            <td class="highlight">C</td>
+            <td class="highlight">S</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="highlight"></td>
+            <td class="highlight">7</td>
+            <td class="highlight"></td>
+        </tr>
+        <tr>
+            <td class="highlight"></td>
+            <td></td>
+            <td></td>
+            <td class="highlight">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+                <td class="highlight"></td>
+                <td class="highlight"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="highlight">D</td>
+                <td class="highlight">M</td>
+                <td class="highlight">A</td>
+                <td class="highlight"></td>
+                <td class="highlight">C</td>
+                <td class="highlight">S</td>
+                <td class="highlight"></td>
+                <td class="highlight"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+                <td class="highlight"></td>
+                <td class="highlight"></td>
+                <td class="highlight"></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="highlight"></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+                <td class="highlight"></td>
+                <td class="highlight"></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="highlight"></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            </table>
+        
+            <script>
+                function highlightWord(word) {
+                    var cells = document.getElementsByTagName('td');
+                    for (var i = 0; i < cells.length; i++) {
+                        if (cells[i].innerHTML === word) {
+                            cells[i].classList.add('highlight');
+                        }
+                    }
+                }
+        
+                highlightWord('CPU');
+                highlightWord('ULA');
+                highlightWord('registradores');
+                highlightWord('RAM');
+                highlightWord('ROM');
+                highlightWord('Eprom');
+                highlightWord('Flash');
+                highlightWord('memoria de massa');
+                highlightWord('DMA');
+                highlightWord('CS');
+                highlightWord('address bus');
+                highlightWord('data bus');
+                highlightWord('I5');
+                highlightWord('I7');
+                highlightWord('dual core');
+                highlightWord('quad core');
+                highlightWord('threads');
+                highlightWord('cache');
+    </script>
+</body>
+</html>
+
+        
